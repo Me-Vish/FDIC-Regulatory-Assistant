@@ -1,0 +1,8 @@
+openai>=1.0.0
+gradio
+numpy
+pypdf
+pytesseract
+pdf2image
+pillow
+nest_asyncio
