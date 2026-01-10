@@ -18,7 +18,7 @@ This project implements a regulation-restricted AI assistant that:
 - Performs semantic search only on FDIC RMS Manual Section 3.2  
 - Generates regulation-aligned responses  
 - Explicitly refuses to answer when information is not found in the document
-- 
+  
 ## 🔍 Key Features
 - **OCR-Based Loan Processing**  
   Supports scanned PDFs and image-based loan documents.
@@ -38,7 +38,7 @@ This project implements a regulation-restricted AI assistant that:
 - Tesseract OCR  
 - pypdf, pdf2image  
 - Gradio
-- 
+  
 ## ⚙️ Workflow
 1. Upload loan document  
 2. Extract text using OCR  
