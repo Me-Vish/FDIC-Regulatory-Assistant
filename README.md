@@ -1,25 +1,28 @@
-# 🏦 FDIC Regulatory Assistant
+#  FDIC Regulatory Assistant
 
 An AI-powered regulatory assistant that analyzes loan documents by strictly referencing the **FDIC Risk Management Supervision (RMS) Manual – Section 3.2 (Loans)** to produce document-grounded, audit-ready regulatory insights.
 
-## 📌 Overview
+##  Open in Google Colab
+[Open Notebook in Colab](https://colab.research.google.com/drive/1DC_azkEjxsspHKPGVq8CCvHqsGd6Vjmk?usp=sharing)
+
+##  Overview
 The FDIC Regulatory Assistant is designed to demonstrate the responsible use of Large Language Models (LLMs) in a highly regulated financial environment.  
 It assists in regulatory analysis by extracting loan details, retrieving relevant regulatory context, and generating responses that are **strictly limited to the provided FDIC document**.
 
-⚠️ This system does **not** approve, reject, or determine compliance for loans.
+ This system does **not** approve, reject, or determine compliance for loans.
 
-## 🎯 Problem Statement
+##  Problem Statement
 Banks must review a large number of loan applications while ensuring strict adherence to complex federal regulations.  
 Manual review is time-consuming, error-prone, and difficult to scale, while unrestricted AI systems risk hallucination and non-compliance.
 
-## 💡 Solution
+##  Solution
 This project implements a regulation-restricted AI assistant that:
 - Extracts loan information using OCR  
 - Performs semantic search only on FDIC RMS Manual Section 3.2  
 - Generates regulation-aligned responses  
 - Explicitly refuses to answer when information is not found in the document
   
-## 🔍 Key Features
+##  Key Features
 - **OCR-Based Loan Processing**  
   Supports scanned PDFs and image-based loan documents.
 - **Structured Loan Data Extraction**  
@@ -31,7 +34,7 @@ This project implements a regulation-restricted AI assistant that:
 - **Interactive Web Interface**  
   Built with Gradio for transparent and user-friendly interaction.
   
-## 🛠 Technology Stack
+##  Technology Stack
 - Python  
 - OpenAI API  
 - Embeddings (text-embedding-3-small)  
